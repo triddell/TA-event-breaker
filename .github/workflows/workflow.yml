@@ -25,7 +25,7 @@ jobs:
       - name: Generate props.conf from csv
         run: gen/gen-event-breaker-props.py
       - name: Create tgz artifact
-        run: tar --transform 's|^|/TA-event-breaker/|' -czf "TA-event-breaker_$GITVERSION_SEMVER.tgz" default lookups metadata
+        run: tar --transform 's|^|/TA-event-breaker/|' -czf "TA-event-breaker_$GITVERSION_SEMVER.tgz" default metadata
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
