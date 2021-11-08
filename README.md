@@ -1,5 +1,5 @@
 # TA-event-breaker
 
-[![Build Status](https://dev.azure.com/triddell/TA-event-breaker/_apis/build/status/triddell.TA-event-breaker?branchName=master)](https://dev.azure.com/triddell/TA-event-breaker/_build/latest?definitionId=1&branchName=master)
+![TA-event-breaker](https://github.com/triddell/TA-event-breaker/actions/workflows/workflow.yml/badge.svg)
 
 A Splunk add-on to enable event breaking for sourcetypes defined in [TA-index-time](https://github.com/triddell/TA-index-time).
